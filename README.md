@@ -8,6 +8,7 @@ whether a loan application will be approved or denied based on certain features 
 applicants
 
 Data Set
+
 The dataset used for this project is sourced from Kaggle: Loan Status Prediction Dataset:
 Loan_Prediction_dataset . It comprises information related to loan applications, including
 applicant demographics, financial information, and credit history. Each application is labeled
@@ -17,6 +18,7 @@ testing the models. Features extracted from the dataset include applicant income
 loan amount, credit score, and employment status.
 
 Problem Definition
+
 1. The project aims to develop a loan status prediction model to determine whether a loan
    application will be approved or denied based on applicant information. Leveraging
    machine learning algorithms like Logistic Regression, K-Nearest Neighbors (KNN), and
@@ -31,6 +33,7 @@ Problem Definition
    lending process and improve efficiency in financial institutions.
 
 Solution Methodology
+
 ● Logistic Regression: A binary classification algorithm that predicts the probability of a
 patient experiencing heart failure based on input medical features. Logistic Regression is
 interpretable and efficient, making it suitable for heart failure prediction tasks. However,
@@ -50,10 +53,12 @@ efficient and works well with small datasets. However, the assumption of feature
 independence may not hold in real-world scenarios, impacting its accuracy.
 
 Programming Tools
+
 ● Python (Jupyter IDE)
 ● Python Libraries : Seaborn, Matplot (for visualisation) ; Numpy , Pandas and sklearn.
 
 Data Source
+
 The dataset used for this project is sourced from Kaggle, specifically from the following link:
 Loan Status Prediction Dataset. In this Loan Status Prediction dataset, we have the data of
 applicants who previously applied for the loan based on the property, which is a Property Loan.
@@ -61,7 +66,9 @@ The bank will decide whether to give a loan to the applicant based on some facto
 Applicant Income, Loan Amount, previous Credit History, Co-applicant Income, etc. The goal is to
 build a Machine Learning Model to predict the loan to be approved or to be rejected for an
 applicant.
+
 About the loan_data.csv file:
+
 ● Loan_ID: A unique loan ID.
 ● Gender: Either male or female.
 ● Married: Whether Married (yes) or Not Married (No).
