@@ -38,12 +38,14 @@ Solution Methodology
 patient experiencing heart failure based on input medical features. Logistic Regression is
 interpretable and efficient, making it suitable for heart failure prediction tasks. However,
 it assumes linear relationships between features and may not capture complex patterns
-in the data.2
+in the data.
+
 ● K-Nearest Neighbors (KNN): A simple yet effective classification algorithm that classifies
 data points based on the majority class of their nearest neighbors in the feature space.
 KNN works well with non-linear data and doesn't make strong assumptions about the
 underlying data distribution. However, its performance can be sensitive to the choice of k
 and may require careful preprocessing of the data to normalize feature scales.
+
 ● Naive Bayes: A probabilistic classification algorithm based on Bayes' theorem with the
 "naive" assumption of feature independence. Naive Bayes calculates the probability of a
 patient experiencing heart failure given their medical features and selects the class with
@@ -52,10 +54,13 @@ be surprisingly effective, especially with high-dimensional data. It's computati
 efficient and works well with small datasets. However, the assumption of feature
 independence may not hold in real-world scenarios, impacting its accuracy.
 
+
 Programming Tools
 
 ● Python (Jupyter IDE)
+
 ● Python Libraries : Seaborn, Matplot (for visualisation) ; Numpy , Pandas and sklearn.
+
 
 Data Source
 
@@ -70,15 +75,27 @@ applicant.
 About the loan_data.csv file:
 
 ● Loan_ID: A unique loan ID.
+
 ● Gender: Either male or female.
+
 ● Married: Whether Married (yes) or Not Married (No).
+
 ● Dependents: Number of persons depending on the client.
+
 ● Education: Applicant Education (Graduate or Undergraduate).
+
 ● Self_Employed: Self-employed (Yes/No).
+
 ● ApplicantIncome: Applicant income.3
+
 ● CoapplicantIncome: Co-applicant income.
+
 ● LoanAmount: Loan amount in thousands.
+
 ● Loan_Amount_Term: Terms of the loan in months.
+
 ● Credit_History: Credit history meets guidelines.
+
 ● Property_Area: Applicants are living either Urban, Semi-Urban or Rural.
+
 ● Loan_Status: Loan approved (Y/N).
