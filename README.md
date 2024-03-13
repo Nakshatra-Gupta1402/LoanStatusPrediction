@@ -1,6 +1,7 @@
 # LoanStatusPrediction
 
 Abstract
+
 This project focuses on predicting loan status using three different classification algorithms:
 Logistic Regression, K-Nearest Neighbors (KNN), and Naive Bayes. The objective is to determine
 whether a loan application will be approved or denied based on certain features provided by the
